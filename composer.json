@@ -1,0 +1,20 @@
+{
+    "name": "ark/example-app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liu Dong",
+            "email": "ddliuhb@gmail.com"
+        }
+    ],
+    "require": {
+        "ark/framework": "^0.1.1",
+        "ark/database": "^0.2.2",
+        "ark/template": "^0.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

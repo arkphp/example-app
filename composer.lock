@@ -1,0 +1,374 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b1bc9168c6fd3952baec716375124c7f",
+    "packages": [
+        {
+            "name": "ark/database",
+            "version": "v0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arkphp/database.git",
+                "reference": "5b332d0b0b683bb4211fa12687e7c89a3ab158df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arkphp/database/zipball/5b332d0b0b683bb4211fa12687e7c89a3ab158df",
+                "reference": "5b332d0b0b683bb4211fa12687e7c89a3ab158df",
+                "shasum": ""
+            },
+            "require": {
+                "psr/log": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ark\\Database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liu Dong",
+                    "role": "Developer",
+                    "email": "ddliuhb@gmail.com",
+                    "homepage": "http://codecent.com"
+                }
+            ],
+            "description": "Light weight database abstraction",
+            "homepage": "https://github.com/arkphp/database",
+            "keywords": [
+                "database",
+                "mysql",
+                "postgresql",
+                "sqlite",
+                "sqlite3"
+            ],
+            "time": "2017-11-24T11:21:38+00:00"
+        },
+        {
+            "name": "ark/event",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arkphp/event.git",
+                "reference": "e6250068e9d64e0afe48bb1c58b5572cc53eeace"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arkphp/event/zipball/e6250068e9d64e0afe48bb1c58b5572cc53eeace",
+                "reference": "e6250068e9d64e0afe48bb1c58b5572cc53eeace",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ark\\Event\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Liu Dong",
+                    "email": "ddliuhb@gmail.com"
+                }
+            ],
+            "description": "Simple event dispatching library for PHP",
+            "keywords": [
+                "event-dispatcher",
+                "event-emitter"
+            ],
+            "time": "2015-03-21T18:00:39+00:00"
+        },
+        {
+            "name": "ark/framework",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arkphp/framework.git",
+                "reference": "ba05fd3c343fe884a3d1276e20caf2445c5b3b1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arkphp/framework/zipball/ba05fd3c343fe884a3d1276e20caf2445c5b3b1d",
+                "reference": "ba05fd3c343fe884a3d1276e20caf2445c5b3b1d",
+                "shasum": ""
+            },
+            "require": {
+                "ark/event": "~0.1",
+                "nikic/fast-route": "0.4.*",
+                "pimple/pimple": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ark\\Framework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liu Dong",
+                    "email": "ddliuhb@gmail.com",
+                    "homepage": "http://codecent.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lightweight PHP framework",
+            "homepage": "https://github.com/arkphp/framework",
+            "keywords": [
+                "framework"
+            ],
+            "time": "2015-03-22T06:45:51+00:00"
+        },
+        {
+            "name": "ark/template",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arkphp/template.git",
+                "reference": "288371f56d9b94199c3647f485de50fbc964b466"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arkphp/template/zipball/288371f56d9b94199c3647f485de50fbc964b466",
+                "reference": "288371f56d9b94199c3647f485de50fbc964b466",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ark\\Template\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dong",
+                    "email": "ddliuhb@gmail.com"
+                }
+            ],
+            "description": "Native PHP template engine",
+            "time": "2016-04-26T10:09:04+00:00"
+        },
+        {
+            "name": "nikic/fast-route",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "f26a8f7788f25c0e3e9b1579d38d7ccab2755320"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/f26a8f7788f25c0e3e9b1579d38d7ccab2755320",
+                "reference": "f26a8f7788f25c0e3e9b1579d38d7ccab2755320",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2015-02-26T15:33:07+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2018-01-21T07:42:36+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2018-11-20T15:27:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
