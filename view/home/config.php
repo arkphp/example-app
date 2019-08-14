@@ -1,4 +1,4 @@
 <?php $this->extend('layout.php');?>
 <?php $this->begin('content');?>
-<p>Index</p>
+<p><?php print_r($config);?></p>
 <?php $this->end();?>

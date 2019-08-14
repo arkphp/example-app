@@ -10,7 +10,8 @@
     "require": {
         "ark/framework": "^0.1.1",
         "ark/database": "^0.2.2",
-        "ark/template": "^0.1.2"
+        "ark/template": "^0.1.2",
+        "vlucas/phpdotenv": "^3.4"
     },
     "autoload": {
         "psr-4": {
