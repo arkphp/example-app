@@ -1,6 +1,5 @@
 <?php
 namespace App\Http;
-use Ark\Template\Engine;
 class Base {
     protected $engine;
     protected function json($data, $status=null) {
